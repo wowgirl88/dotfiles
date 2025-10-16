@@ -1,0 +1,45 @@
+#include "base"
+
+!colors
+st.cursorColor:	 	#c0caf5
+!st.rcursorColor:
+st.foreground:	  	#c0caf5
+st.background:	  	#1a1b26
+
+! vim select
+st.currentBg:	   	#1e1d2d
+st.highlightFg:		#191c25
+st.highlightBg:		#cda869
+
+!	normal colors (black,red,green,yellow,blue,magenta,cyan,white)
+st.color0:	        #414868	
+st.color1:		    #8c4351
+st.color2:		    #485e30
+st.color3:		    #8f5e15
+st.color4:	        #0f4b6e
+st.color5:		    #5a4a78
+st.color6:		    #166775
+st.color7:		    #a9b1d6
+
+!	bright colors (black,red,green,yellow,blue,magenta,cyan,white)
+st.color8:		  #565f89
+st.color9:		  #f7768e
+st.color10:		  #9ece6a
+st.color11:		  #e0af68
+st.color12:		  #7dcfff
+st.color13:		  #bb9af7
+st.color14:		  #73daca
+st.color15:		  #cfc9c2
+
+
+!	dim colors? (red,green,yellow,blue,magenta,cyan)
+!st.color16:		#cda869
+!st.color17:		#9b703f
+!st.color18:		#323537
+!st.color19:		#464b50
+!st.color20:		#838184
+!st.color21:		#c3c3c3
+
+!st.color19:		#464b50
+!st.color20:		#838184
+!st.color21:		#c3c3c3

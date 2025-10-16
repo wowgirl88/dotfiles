@@ -1,0 +1,52 @@
+! Styling
+! 1440x900
+! use (xdpyinfo | grep -B 2 resolution) to get what dpi you need to use
+! Xft.dpi: 87
+Xft.dpi: 87 
+!Xft.dpi: 75 
+
+Xft.antialias:         1
+Xft.autohint:          0
+Xft.hinting:           1
+Xft.hintstyle:         hintfull
+Xft.lcdfilter:         lcdefault
+Xft.rgba:              rgb
+
+! My Personal settings
+! Ones that are commented are default
+
+! font (default: mono) (mono uses the default monspaced font in your system)
+!   default:  st.font: mono:pixelsize=12:antialias=true:autohint=true
+
+! st.font:            FiraCode Nerd Font:pixelsize=16:style=Retina
+st.font:            IosevkaTerm Nerd Font:pixelsize=24
+
+! Extra fonts that can be installed for things like powerline symbols
+st.fontalt0: Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true
+! st.fontalt1:
+! st.fontalt2:
+
+! window padding (default: 2)
+st.borderpx:		6
+
+! transparency 0.0-1.0
+st.alpha:	        0.9
+
+!st.termname:		st-256color
+!st.shell: 		/bin/sh
+!st.minlatency:		2 !NOT RECOMMENDED TO CHANGE
+!st.maxlatency:		33 !NOT RECOMMENDED TO CHANGE
+! terminal blinking, 0 to disable blinking
+!st.blinktimeout:	800
+! bell volume -100 to 100, 0 disabled
+!st.bellvolume		0
+!st.tabspaces:		8 !NOT RECOMMENDED TO CHANGE
+! character bounding box multiplier
+!st.chscale:		1.0
+!st.cwscale:		1.0
+!st.cursorshape:	2
+! Default shape of cursor
+! 2: Block ("█")
+! 4: Underline ("_")
+! 6: Bar ("|")
+! 7: Snowman ("☃")

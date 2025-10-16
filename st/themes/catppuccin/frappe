@@ -1,0 +1,32 @@
+#include "../base"
+
+! grav colors
+st.cursorColor:	 	#F2D5CF
+!st.rcursorColor:
+st.foreground:	  	#C6D0F5
+st.background:	  	#303446
+
+! vim select
+st.currentBg:	   	#1E1E2E
+st.highlightFg:		#191c25
+st.highlightBg:		#cda869
+
+!	normal colors (black,red,green,yellow,blue,magenta,cyan,white)
+st.color0:	        #51576D	
+st.color1:		    #E78284
+st.color2:		    #A6D189
+st.color3:		    #E5C890
+st.color4:	        #8CAAEE
+st.color5:		    #F4B8E4
+st.color6:		    #81C8BE
+st.color7:		    #B5BFE2
+
+!	bright colors (black,red,green,yellow,blue,magenta,cyan,white)
+st.color8:		#626880
+st.color9:		#E78284
+st.color10:		#A6D189
+st.color11:		#E5C890
+st.color12:		#8CAAEE
+st.color13:		#F4B8E4
+st.color14:		#81C8BE
+st.color15:		#A5ADCE

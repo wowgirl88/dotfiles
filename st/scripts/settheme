@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+error() {
+    echo "File '$1' not found in\n$(pwd)/$1 or ~/.config/st/$1"
+    echo "\nInside of ~/.config/st"
+    tree ~/.config/st
+}
+
+if [ ! $1 ]; then
+    error
+    return 1
+fi
+
+if [ ! -f $1 ]; then
+        if [ -f  ~/.config/st/$1 ]; then
+            xrdb ~/.config/st/$1 && kill -USR1 $(pidof st)
+            return 0
+        fi
+        error $1
+        return 2
+fi
+
+xrdb $1 && kill -USR1 $(pidof st)
+return 0

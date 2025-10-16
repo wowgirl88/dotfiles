@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+kill -USR1 $(pidof st)
