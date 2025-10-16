@@ -1,0 +1,2 @@
+# dotfiles
+dwm + st
